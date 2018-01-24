@@ -1,0 +1,12 @@
+
+   Observational data on survival times of renal failure patients receiving
+   peritoneal dialysis.
+
+   Column 1: patient identifier
+   Column 2: survival time (days since start of treatment, may be censored)
+   Column 3: censoring indicator: if 0, patient was still alive after number
+             of days indicated in column 2; if 1, patient died after number
+             of days indicated in column 2
+   Column 4: dialysis method: 0 for CAPD (Continuous Ambulatory Peritoneal 
+             Dialysis), 1 for APD (Automated Peritoneal Dialysis)
+   Column 5: age (in years at start of treatment)
